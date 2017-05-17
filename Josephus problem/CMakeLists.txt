@@ -3,5 +3,5 @@ project(Josephus_problem)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp Temp.cpp)
 add_executable(Josephus_problem ${SOURCE_FILES})

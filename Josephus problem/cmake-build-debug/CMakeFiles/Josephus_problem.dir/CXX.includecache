@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/Yichao/CLionProjects/Josephus problem/main.cpp
+/Users/Yichao/DataStruct-Learning/Josephus problem/Temp.cpp
+iostream
+-
+
+/Users/Yichao/DataStruct-Learning/Josephus problem/main.cpp
+iostream
+-
 iostream
 -
 
