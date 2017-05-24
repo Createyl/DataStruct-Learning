@@ -1,0 +1,3 @@
+/Users/Yichao/DataStruct-Learning/TestLab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Yichao/DataStruct-Learning/TestLab/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Yichao/DataStruct-Learning/TestLab/cmake-build-debug/CMakeFiles/TestLab.dir
