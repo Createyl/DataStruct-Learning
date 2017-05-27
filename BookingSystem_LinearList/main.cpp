@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 struct flight {
@@ -8,7 +7,7 @@ struct flight {
 };
 
 typedef struct BSList {
-    flight flightInfo[50];//30个航次,每个航次一个位置存放余票量，每个航班100张票
+    flight flightInfo[50];//50个航次,每个航次一个位置存放余票量，每个航班100张票
     int length;//此线性表实际的长度
 } BSListA;
 
@@ -37,7 +36,6 @@ void createList(BSListA *&BS) {
     for (i = 0; i < flightNum; i++) {
         BS->flightInfo[i].flightTicket = 100;//初始化，每个航班100张票
         BS->flightInfo[i].flightCode = 10000 + i;//初始化，每个航班100张票
-//        cout<< BS->flightInfo[i].flightTicket<<endl;
         cout << BS->flightInfo[i].flightCode << endl;
     }
 }
@@ -55,6 +53,7 @@ PassengerLinkPtr createDoubleLink(int num){
         curr->LLink = prev;
         prev = curr;
     }
+
     curr = new PassengerLink;
     prev->RLink = curr;
     curr->LLink = prev;
@@ -64,7 +63,6 @@ PassengerLinkPtr createDoubleLink(int num){
 }
 
 void InsertLink(PassengerLinkPtr &head, string bookName, int ticketNumFlight, int ticketPasg) {//???head前面是*&还是&
-//不用再PassengerLinkPtr后面加*？
     PassengerLinkPtr curr = NULL, node = NULL;
     curr = head->RLink;
 
@@ -97,7 +95,7 @@ void InsertLink(PassengerLinkPtr &head, string bookName, int ticketNumFlight, in
             }
             else{
                 if(bookName > curr->name){
-                    curr = curr->RLink;//!!!!!!
+                    curr = curr->RLink;
                 }
                 else{
                     node = new PassengerLink;
@@ -135,46 +133,65 @@ void InsertLink(PassengerLinkPtr &head, string bookName, int ticketNumFlight, in
     cout << "\n您已成功订票航班号为: " <<node->ticketNumFlight<<"票数: "<< node->ticketPasg << " 张" << endl;
 };
 
-//void DeleteLink(PassengerLinkPtr &head, string bookName) {
-//    PassengerLinkPtr prev = NULL, next = NULL;
-//    prev = head->RLink;
-//    while ((bookName != prev->name) && (bookName < prev->name) && (prev != head))
-//        prev = prev->RLink;
-//    if (prev == head)
-//        cout << "此人无订票信息" << endl;
-//    else {
-//        (prev->LLink)->RLink = prev->RLink;
-//        (prev->RLink)->LLink = prev->LLink;
-//        cout << "此人无订票数清除订票姓名信息";
-//    }
-//
-//};
-//
-//int GetLink(PassengerLinkPtr &head, string bookName) {
-//    PassengerLinkPtr prev = NULL, next = NULL;
-//    prev = head->RLink;
-//    while ((bookName != prev->name) && (bookName < prev->name) && (prev != head))
-//        prev = prev->RLink;
-//    return prev->ticketPasg;
-//}
-//
-//void AlertLink(PassengerLinkPtr &head, string bookName, int ticketPasg) {
-//    PassengerLinkPtr prev = NULL, next = NULL;
-//    prev = head->RLink;
-//    while ((bookName != prev->name) && (bookName < prev->name) && (prev != head))
-//        prev = prev->RLink;
-//    prev->ticketPasg = ticketPasg;
-//}
-//
-//void QueryLink(PassengerLinkPtr &head, string bookName) {//系统性学习函数，以及其返回类型
-//    PassengerLinkPtr prev = NULL, next = NULL;
-//    prev = head->RLink;
-//    while ((bookName != prev->name) && (bookName < prev->name) && (prev != head))
-//        prev = prev->RLink;
-//    cout << "姓名:" << prev->name << endl;
-//    cout << "预订的航班的班次:" << prev->ticketNumFlight << endl;
-//    cout << "预订的本次航班的票数:" << prev->ticketPasg << endl;
-//};
+void DeleteLink(PassengerLinkPtr &head, string bookName, int ticketNumFlight) {
+    PassengerLinkPtr curr = NULL;
+    curr = head->RLink;
+    while ((bookName != curr->name) && (curr != head))
+        curr = curr->RLink;
+
+    if (curr == head)
+        cout << "此人无订票信息" << endl;
+    if(bookName==curr->name){
+        if(ticketNumFlight==curr->ticketNumFlight) {
+            (curr->LLink)->RLink = curr->RLink;
+            (curr->RLink)->LLink = curr->LLink;
+            cout << "此人无订票数清除订票姓名信息";
+        }
+        else
+            cout<<"定位到乘客但是未预订此次航班"<<endl;
+    }
+};
+
+int GetLink(PassengerLinkPtr &head, string bookName) {
+    PassengerLinkPtr prev = NULL;
+    prev = head->RLink;
+    while ((bookName != prev->name) && (bookName < prev->name) && (prev != head))
+        prev = prev->RLink;
+    return prev->ticketPasg;
+}
+
+void AlertLink(PassengerLinkPtr &head, string bookName, int ticketNumFlight,int ticketPasg) {
+
+    PassengerLinkPtr curr = NULL;
+    curr = head->RLink;
+
+    while ((bookName != curr->name) && (curr != head))
+        curr = curr->RLink;
+
+    if(curr==head) {
+        cout<<"未找到匹配项无法修改"<<endl;
+    }
+    if(curr!=head){
+        if(bookName==curr->name){
+            if(ticketNumFlight==curr->ticketNumFlight) {
+                curr->ticketPasg = ticketPasg;
+                cout<<"修改成功"<<endl;
+            }
+            else
+                cout<<"定位到乘客但是未预订此次航班"<<endl;
+        }
+    }
+}
+
+void QueryLink(PassengerLinkPtr &head, string bookName) {//系统性学习函数，以及其返回类型
+    PassengerLinkPtr prev = NULL;
+    prev = head->RLink;
+    while ((bookName != prev->name) && (bookName < prev->name) && (prev != head))
+        prev = prev->RLink;
+    cout << "姓名:" << prev->name << endl;
+    cout << "预订的航班的班次:" << prev->ticketNumFlight << endl;
+    cout << "预订的本次航班的票数:" << prev->ticketPasg << endl;
+}
 
 void book(BSListA *&BS,PassengerLinkPtr &head) {
 
@@ -207,72 +224,81 @@ void book(BSListA *&BS,PassengerLinkPtr &head) {
     }
 }
 
-//void refund(BSList *&BS) {//退票系统
-//    string refundName;
-//    int refundFlightCode;
-//    int refundNum = 0;
-//
-//    cout << "请输入您要退票的航班" << endl;
-//    cin >> refundFlightCode;
-//
-//    int i = 0;
-//    cout << "请输入您的姓名" << endl;
-//    cin >> refundName;
-//
-//    cout << "您所持有的本航班的机票数量为" << endl;
-//    QueryLink(head, refundName);
-//
-//    cout << "请输入您的退票的数量" << endl;
-//    cin >> refundNum;
-//
-//    if (refundNum > GetLink(head, refundName))
-//        cout << "错误信息:退票数量大于持有数量" << endl;
-//    else {//余票充足,进入订票系统
-//        int ticketPasg = GetLink(head, refundName) - refundNum;
-//        AlertLink(head, refundName, ticketPasg);
-//        if (ticketPasg == 0)
-//            DeleteLink(head, refundName);
-//    }
-//
-//    /* 若该航次当前退票数小于等于乘客原订票数，
-//     * 则在相应的乘客表中找到该乘客项，
-//     * 修改该航次及乘客表中有关数据。
-//     * 当由于退票，使得该乘客的订票数为0时，要从乘客表中撤销该乘客项；
-//     * 否则，给出相应的提示信息。
-//     * */
-//}
-//
-//void initialize(BSList *&BS){};
+void refund(BSList *&BS,PassengerLinkPtr &head) {//退票系统
+    string refundName;
+    int refundFlightCode;
+    int refundNum = 0;
 
+    cout << "请输入您要退票的航班" << endl;
+    cin >> refundFlightCode;
 
+    cout << "请输入您的姓名" << endl;
+    cin >> refundName;
+
+    cout << "您所持有的本航班的机票数量为" << endl;
+    QueryLink(head, refundName);//!!!!!待测试
+
+    cout << "请输入您的退票的数量" << endl;
+    cin >> refundNum;
+    int lastTicket = GetLink(head, refundName);
+
+    if (refundNum > lastTicket)//!!!!!!!待测试
+        cout << "错误信息:退票数量大于持有数量" << endl;
+    else {//余票充足,进入订票系统
+        int ticketPasg = lastTicket - refundNum;
+        AlertLink(head, refundName, refundFlightCode,ticketPasg);
+        if (ticketPasg == 0)
+            DeleteLink(head, refundName, refundFlightCode);
+    }
+}
+
+void initialize(BSList *&BS,PassengerLinkPtr &head){
+    cout<<"\n请选择您要重置的航班编号"<<endl;
+    int flightCode=0;
+    cin>>flightCode;
+    flightCode = flightCode -10000;
+    BS->flightInfo[flightCode].flightTicket = 100;
+    cout<<"航班信息重置成功"<<endl;
+    flightCode = 10000;
+
+    //遍历一遍双重链表 只要把航班号为flightCode的乘客信息删除
+
+    PassengerLinkPtr curr = head->RLink;//!!!!
+
+    while(curr!=head){
+        if(flightCode==curr->ticketNumFlight) {
+            //删除curr
+            PassengerLinkPtr node = curr,temp = NULL;
+            (node->RLink)->LLink = node->LLink;
+            (node->LLink)->RLink = node->RLink;
+            temp->RLink = node->RLink;
+            node->LLink = NULL;
+            node->RLink = NULL;
+            curr = new PassengerLink;
+            curr->RLink = temp->RLink;
+        }
+        curr = curr->RLink;
+    }
+    if(curr==head)
+        cout<<"乘客表信息清除完成"<<endl;
+
+};
 
 int main() {
 //    显示所有航次
     initList(BS);
     createList(BS);
-
     PassengerLinkPtr head = createDoubleLink(30);
-//    string bookName;
-//    int bookFlightCode;
-//    int bookNum;
-//    cin >> bookName;
-//    cin >> bookFlightCode;
-//    cin >> bookNum;
-//    InsertLink(head, bookName, bookFlightCode, bookNum);
-
-    while(2>1){
-    book(BS, head);
+    while(true) {
+        cout << "请选择您要进行的操作 0:初始化系统 1:订票 2:退票 3:退出系统" << endl;
+        int act;
+        cin >> act;
+        if (act == 0)initialize(BS,head);
+        else if (act == 1)book(BS,head);
+        else if (act == 2)refund(BS,head);
+        else if (act == 3)return 0;
+        else{ cout << "输入错误"; }
     }
-
-
-//    cout<<"请选择您要进行的操作 0:初始化系统 1:订票 2:退票"<<endl;
-//    int act;
-//    cin>>act;
-//    if(act==0)initialize(BS);
-//    else if(act==1)book(BS,head);
-//    else if(act==2)refund(BS);
-//    else{cout<<"输入错误";}
-    return 0;
 }
 
 
