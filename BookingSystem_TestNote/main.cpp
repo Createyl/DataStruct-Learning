@@ -14,6 +14,7 @@ typedef struct BSList{
 typedef struct PassengerLink{
     string name;//乘客姓名
     int ticketPasg=0;//乘客持有的票数
+    int ticketNumFlight;
     struct PassengerLink * LLink;//前驱链域
     struct PassengerLink * RLink;//后继链域
 } * PassengerLinkPtr;
@@ -62,6 +63,75 @@ PassengerLinkPtr createDoubleLink(int num){
     head->LLink = curr;
     return head;
 }
+
+void InsertLink(PassengerLinkPtr &head, string bookName, int ticketNumFlight, int ticketPasg) {//???head前面是*&还是&
+//不用再PassengerLinkPtr后面加*？
+    PassengerLinkPtr curr = NULL, node = NULL;
+    curr = head->RLink;
+
+    //未进入循环,成立才循环，说明不成立 curr->name 为空 无法比较 空串小于任何有内容的串
+    if(curr->name!=""){//空字符
+        while((bookName != (curr->name)) && (curr != head)){//还是没有进入循环
+            if(bookName < curr->name){
+                //在head和curr中间插一个
+                node = new PassengerLink;
+                node->name = bookName;
+                node->ticketPasg = ticketPasg;
+                node->ticketNumFlight = ticketNumFlight;
+                node->RLink = curr;
+                node->LLink = curr->LLink;
+                (curr->LLink)->RLink = node;
+                curr->LLink = node;
+            }
+            else{
+                //在curr的下一个插入
+                node = curr->RLink;
+                node->name = bookName;
+                node->ticketPasg = ticketPasg;
+                node->ticketNumFlight = ticketNumFlight;
+
+            }
+            curr = curr->RLink;
+            cout<<"姓名"<<curr->name<<endl;
+        }
+
+    }
+    else{//curr->name==空字符
+        node = curr;
+        node->name = bookName;
+        node->ticketPasg = ticketPasg;
+        node->ticketNumFlight = ticketNumFlight;
+    }
+
+//    if(curr==head){
+//        node = new PassengerLink;
+//
+//        node->name = bookName;
+//        node->ticketPasg = node->ticketPasg + ticketPasg;
+//        node->ticketNumFlight = ticketNumFlight;
+//        node->RLink = curr->RLink;
+//        node->LLink = curr;
+//        (curr->RLink)->LLink = node;
+//        curr->RLink = node;
+//    }
+//    if(curr != head) {
+//
+//        node = curr;
+//
+//        node->name = bookName;
+//        node->ticketPasg = node->ticketPasg + ticketPasg;
+//        node->ticketNumFlight = ticketNumFlight;
+//        node->RLink = curr->RLink;
+//        node->LLink = curr;
+//        (curr->RLink)->LLink = node;
+//        curr->RLink = node;
+//    }
+    cout << "\n 您已成功订票航班号为: " <<node->ticketNumFlight<<"票数: "<< node->ticketPasg << " 张" << endl;
+    cout << "地址"<<&(node);
+    cout << "地址"<<&(head);
+    cout << "地址"<<&(curr);
+
+};
 
 int main(){
 //    BSList *BS;

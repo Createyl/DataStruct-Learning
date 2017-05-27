@@ -1,3 +1,3 @@
-/Users/Yichao/CLionProjects/Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/Yichao/CLionProjects/Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/Yichao/CLionProjects/Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Josephus_problem_LinearList.dir
+/Users/Yichao/DataStruct-Learning/Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Yichao/DataStruct-Learning/Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Yichao/DataStruct-Learning/Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Josephus_problem_LinearList.dir

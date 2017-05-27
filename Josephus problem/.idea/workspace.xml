@@ -12,41 +12,141 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="192e712e-6b91-480f-8678-3300765aae6b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeCXXCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeSystem.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/main.cpp.o" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Josephus_problem" afterPath="$PROJECT_DIR$/cmake-build-debug/Josephus_problem" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/3.7.1/CMakeCCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/3.7.1/CMakeCXXCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/3.7.1/CMakeSystem.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/3.7.1/CMakeCCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/3.7.1/CMakeCXXCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/3.7.1/CMakeSystem.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/BookingSystem_TestNote.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/BookingSystem_TestNote.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/BookingSystem_TestNote.dir/main.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeCCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeCXXCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CMakeSystem.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/Temp.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/3.6.3/CMakeCCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/3.6.3/CMakeCXXCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/3.6.3/CMakeSystem.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Josephus_problem_LinearList.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Josephus_problem_LinearList.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Josephus_problem_LinearList.dir/main.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/3.6.3/CMakeCCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/3.6.3/CMakeCXXCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/3.6.3/CMakeSystem.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Test.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Test.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Test.dir/main.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/3.7.1/CMakeCCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/3.7.1/CMakeCXXCompiler.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/3.7.1/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/3.7.1/CMakeSystem.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/TestLab.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/TestLab.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/TestLab.dir/main.cpp.o" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/BookingSystem_LinearList" afterPath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/BookingSystem_LinearList" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/BookingSystem_LinearList.dir/main.cpp.o" afterPath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/BookingSystem_LinearList.dir/main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/TestLab" afterPath="$PROJECT_DIR$/../TestLab/cmake-build-debug/TestLab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BookingSystem_LinearList/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/clion-environment.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/../BookingSystem_LinearList/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_LinearList/main.cpp" afterPath="$PROJECT_DIR$/../BookingSystem_LinearList/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BookingSystem_TestNote/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/BookingSystem_TestNote.dir/depend.make" afterPath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/BookingSystem_TestNote.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/../BookingSystem_TestNote/cmake-build-debug/CMakeFiles/clion-environment.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BookingSystem_TestNote/main.cpp" afterPath="$PROJECT_DIR$/../BookingSystem_TestNote/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/depend.internal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Josephus_problem.dir/progress.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Josephus_problem.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Josephus_problem.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Josephus_problem_LinearList.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Josephus_problem_LinearList.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Josephus_problem_LinearList.dir/build.make" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Josephus_problem_LinearList.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Josephus_problem_LinearList.dir/depend.make" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Josephus_problem_LinearList.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Josephus_problem_LinearList.dir/flags.make" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Josephus_problem_LinearList.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/clion-environment.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/Josephus_problem_LinearList.cbp" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/Josephus_problem_LinearList.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/../Josephus_problem_LinearList/cmake-build-debug/cmake_install.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Test.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Test.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Test.dir/build.make" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Test.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Test.dir/depend.make" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Test.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Test.dir/flags.make" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/Test.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/clion-environment.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/Test.cbp" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/Test.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/../Josephus_sequenceList/cmake-build-debug/cmake_install.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestLab/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TestLab/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/TestLab.dir/depend.make" afterPath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/TestLab.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/../TestLab/cmake-build-debug/CMakeFiles/clion-environment.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestLab/main.cpp" afterPath="$PROJECT_DIR$/../TestLab/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,18 +165,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
+            <state relative-caret-position="723">
               <caret line="54" column="106" lean-forward="false" selection-start-line="54" selection-start-column="106" selection-end-line="54" selection-end-column="106" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Temp.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Temp.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -375,16 +465,18 @@
       <workItem from="1494778045984" duration="601000" />
       <workItem from="1494990018831" duration="2348000" />
       <workItem from="1495011817013" duration="217000" />
+      <workItem from="1495813908587" duration="1792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22519000" />
+    <option name="totallyTimeSpent" value="24311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="642" y="23" width="638" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25838926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26677853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.50278884" order="7" side_tool="true" content_ui="tabs" />
@@ -416,6 +508,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -573,7 +681,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
+        <state relative-caret-position="723">
           <caret line="54" column="106" lean-forward="false" selection-start-line="54" selection-start-column="106" selection-end-line="54" selection-end-column="106" />
           <folding />
         </state>

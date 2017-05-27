@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Yichao/CLionProjects/Josephus_problem_LinearList
+# Install script for directory: /Users/Yichao/DataStruct-Learning/Josephus_problem_LinearList
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Yichao/CLionProjects/Josephus_problem_LinearList/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/Yichao/DataStruct-Learning/Josephus_problem_LinearList/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
