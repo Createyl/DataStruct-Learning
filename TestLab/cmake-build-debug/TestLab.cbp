@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Yichao/DataStruct-Learning/TestLab/main.cpp">
-			<Option target="TestLab"/>
-		</Unit>
 		<Unit filename="/Users/Yichao/DataStruct-Learning/TestLab/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -3,50 +3,53 @@
 #define left 100
 #define right 100
 using namespace std;
+#include "1.cpp"
 
-typedef struct{//转置前的矩阵
-    int i,j;//代表元素[i][j]
-    int v;//代表此矩阵元素内存放的数据
+typedef struct{//原始存储的矩阵的单个元素
+    int i,j;//元素[i][j]
+    int data;//代表此矩阵元素内存放的数据
 }node;
 
-typedef struct spmatrix{//三元组结构体
-    int m,n,t;//代表经过三元组处理后的 行数 列数 非零元素个数
-    node data[maxsize];//非零元素个数为maxsize-此结构体数组用于存储三元组-矩阵中每一个元素
-};
+typedef struct _tripleMatrix{//代表一整个矩阵的三元组存储形式
+    int m,n,t;              //行数 列数 非零元素个数
+    node Element[maxsize];  //非零元素个数为maxsize-此结构体数组用于存储三元组-矩阵中每一个元素
+}tripleMatrix;
 
-void create(spmatrix *&a){
+void create(tripleMatrix *&a){
     cout<<"输入矩阵 行数 列数 非零元素个数"<<endl;
     cin>>a->m>>a->n>>a->t;
     cout<<"请输入非零元素所在的行号，列号，以及数据值"<<endl;
-    for(int i=0;i<a->t;i++){
-        cout<<"元素: "<<endl;
-        cin>>a->data[i].i>>a->data[i].j>>a->data[i].v;
+    for(int i=1;i <= a->t;i++){
+        cout<<"第 "<<i<<" 个元素: ";
+        cin>>a->Element[i].i>>a->Element[i].j>>a->Element[i].data;
     }
-}
+}//√
 
-void printmatrix(spmatrix *&a){
-    int pti,ptj;
+void print(tripleMatrix *&a){
+
     int matrix[left][right];
-    for(pti;pti<left;pti++){//完成对矩阵的初始化
-        for(ptj=0;ptj->right;ptj++){
-            matrix[pti][ptj]=0;
+
+    for(int i=0;i<left;i++){//完成对矩阵的初始化
+        for(int j=0;j->rightj++){
+            matrix[i][j]=0;
         }
     }
-    for(int k=0;k<a->t;k++)//将每一个元素从三元组从提取出啦储存到常规矩阵中
-        matrix[a->data[k].i][a->data[k].j]=a->data[k].v;
 
-    //👇😆😁😄😂下面的算法用于打印常规矩阵🐱🐶
+    for(int x=1;x<a->t;x++)//将每一个元素从三元组从提取出啦储存到常规矩阵中
+        matrix[a->Element[x].i][a->Element[x].j]=a->Element[x].data;
+
+    //下面的算法用于打印常规矩阵
     for(int i=1;i<=(a->m);i++){
         cout<<"    "<<endl;
-        for(int j=1;j<=(a->m);j++)
+        for(int j=1;j<=(a->n);j++)
             cout<<matrix[i][j]<<" ";
         cout<<endl;
     }
 }
 
-spmatrix * transpose(spmatrix *&a){//转置矩阵
-    spmatrix * ts;
-    ts = new spmatrix;
+tripleMatrix * transpose(tripleMatrix *&a){//转置矩阵
+    tripleMatrix * ts;
+    ts = new tripleMatrix;
     ts->m = a->n;
     ts->n = a->m;
     ts->t = a->t;
@@ -66,18 +69,25 @@ spmatrix * transpose(spmatrix *&a){//转置矩阵
     }
 }
 
-spmatrix * multiplication(spmatrix *&a,spmatrix *&b){
+tripleMatrix * multiplication(tripleMatrix *&a,tripleMatrix *&b){
 
 }
 
+
+
 int main(){
-    spmatrix *a,*b,*c;
-    a = new spmatrix;
-    b = new spmatrix;
-    c = new spmatrix;
+    tripleMatrix *a,*b,*c;
+    a = new tripleMatrix;
+    b = new tripleMatrix;
+    c = new tripleMatrix;
     cout<<"创建矩阵a"<<endl;
     create(a);
+    print(a);
     cout<<"创建矩阵b"<<endl;
     create(b);
+    print(b);
+
+
+
     //矩阵的乘法未实现
 }
