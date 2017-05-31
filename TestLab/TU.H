@@ -14,6 +14,7 @@ typedef PointNode ptList[MaxNum];
 int edgnum,ptnum;
 ptList List;
 int *visited =new int[ptnum+1];
+
 void Create(ptList &pl)
 {
 	edgeptr p;

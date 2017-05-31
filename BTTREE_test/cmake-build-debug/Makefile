@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Yichao/DataStruct-Learning/GraphTheory_170530
+CMAKE_SOURCE_DIR = /Users/Yichao/DataStruct-Learning/BTTREE_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Yichao/DataStruct-Learning/GraphTheory_170530/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Yichao/DataStruct-Learning/BTTREE_test/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Yichao/DataStruct-Learning/GraphTheory_170530/cmake-build-debug/CMakeFiles /Users/Yichao/DataStruct-Learning/GraphTheory_170530/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Yichao/DataStruct-Learning/BTTREE_test/cmake-build-debug/CMakeFiles /Users/Yichao/DataStruct-Learning/BTTREE_test/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Yichao/DataStruct-Learning/GraphTheory_170530/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Yichao/DataStruct-Learning/BTTREE_test/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named GraphTheory_170530
+# Target rules for targets named BTTREE_test
 
 # Build rule for target.
-GraphTheory_170530: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 GraphTheory_170530
-.PHONY : GraphTheory_170530
+BTTREE_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BTTREE_test
+.PHONY : BTTREE_test
 
 # fast build rule for target.
-GraphTheory_170530/fast:
-	$(MAKE) -f CMakeFiles/GraphTheory_170530.dir/build.make CMakeFiles/GraphTheory_170530.dir/build
-.PHONY : GraphTheory_170530/fast
+BTTREE_test/fast:
+	$(MAKE) -f CMakeFiles/BTTREE_test.dir/build.make CMakeFiles/BTTREE_test.dir/build
+.PHONY : BTTREE_test/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/GraphTheory_170530.dir/build.make CMakeFiles/GraphTheory_170530.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/BTTREE_test.dir/build.make CMakeFiles/BTTREE_test.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/GraphTheory_170530.dir/build.make CMakeFiles/GraphTheory_170530.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/BTTREE_test.dir/build.make CMakeFiles/BTTREE_test.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,35 +147,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/GraphTheory_170530.dir/build.make CMakeFiles/GraphTheory_170530.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/BTTREE_test.dir/build.make CMakeFiles/BTTREE_test.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-temp.o: temp.cpp.o
-
-.PHONY : temp.o
-
-# target to build an object file
-temp.cpp.o:
-	$(MAKE) -f CMakeFiles/GraphTheory_170530.dir/build.make CMakeFiles/GraphTheory_170530.dir/temp.cpp.o
-.PHONY : temp.cpp.o
-
-temp.i: temp.cpp.i
-
-.PHONY : temp.i
-
-# target to preprocess a source file
-temp.cpp.i:
-	$(MAKE) -f CMakeFiles/GraphTheory_170530.dir/build.make CMakeFiles/GraphTheory_170530.dir/temp.cpp.i
-.PHONY : temp.cpp.i
-
-temp.s: temp.cpp.s
-
-.PHONY : temp.s
-
-# target to generate assembly for a file
-temp.cpp.s:
-	$(MAKE) -f CMakeFiles/GraphTheory_170530.dir/build.make CMakeFiles/GraphTheory_170530.dir/temp.cpp.s
-.PHONY : temp.cpp.s
 
 # Help Target
 help:
@@ -185,13 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... GraphTheory_170530"
+	@echo "... BTTREE_test"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... temp.o"
-	@echo "... temp.i"
-	@echo "... temp.s"
 .PHONY : help
 
 

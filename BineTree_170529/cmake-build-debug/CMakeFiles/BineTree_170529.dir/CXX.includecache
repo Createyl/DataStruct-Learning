@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Yichao/DataStruct-Learning/BineTree_170529/BT.h
+iostream
+-
+
+/Users/Yichao/DataStruct-Learning/BineTree_170529/main.cpp
+iostream
+-
+BT.h
+/Users/Yichao/DataStruct-Learning/BineTree_170529/BT.h
+

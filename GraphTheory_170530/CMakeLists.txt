@@ -3,5 +3,5 @@ project(GraphTheory_170530)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp temp.cpp)
 add_executable(GraphTheory_170530 ${SOURCE_FILES})
