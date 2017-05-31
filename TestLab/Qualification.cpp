@@ -13,9 +13,11 @@ void main(){
 	staff *s= new staff[n+1];
 	int **q;				//顺序数组； 
 	q = new int*[4];
+
 	for(i=0;i<4;i++)
 		q[i]=new int[n+1];
-	for(i=0;i<4;i++){				//顺序数组初始化 
+
+	for(i=0;i<4;i++){				//顺序数组初始化
 		for(j=0;j<n+1;j++){
 			q[i][j]=0;
 		}

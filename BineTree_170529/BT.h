@@ -46,7 +46,7 @@ void preOrder(PtrtreeNode &tr){
         return;
     }
     else{
-        top = 0;
+        top = 0;//设置top为0即栈的第一个位置
         x = tr;
     }
 
@@ -137,14 +137,14 @@ void postOrder(PtrtreeNode &tr){
     do{
         x = stack[top];
         if(((x->Lchild->data == 0)&&(x->Rchild->data==0))||
-                (pre!=NULL&&(x->Lchild == pre|| x->Rchild == pre))){
+                (pre!=NULL&&(x->Lchild == pre|| x->Rchild == pre))){//说明孩子节点已经输出过，不必再进入
 
             cout<<x->data<<" ";
             top--;
             pre = x;
         }
         else{
-            if(x->Rchild->data!=0){
+            if(x->Rchild->data!=0){//先进后出
                 top++;
                 stack[top] = x->Rchild;
             }

@@ -256,10 +256,11 @@ void initialize(BSList *&BS,PassengerLinkPtr &head){
     cout<<"\n请选择您要重置的航班编号"<<endl;
     int flightCode=0;
     cin>>flightCode;
+    int temp=flightCode;
     flightCode = flightCode -10000;
     BS->flightInfo[flightCode].flightTicket = 100;
     cout<<"航班信息重置成功"<<endl;
-    flightCode = 10000;
+    flightCode = temp;
 
     //遍历一遍双重链表 只要把航班号为flightCode的乘客信息删除
 
@@ -269,8 +270,12 @@ void initialize(BSList *&BS,PassengerLinkPtr &head){
         if(flightCode==curr->ticketNumFlight) {
             //删除curr
             PassengerLinkPtr node = curr,temp = NULL;
+            curr->ticketNumFlight=0;
+            curr->name="";
+            curr->ticketPasg=0;
             (node->RLink)->LLink = node->LLink;
             (node->LLink)->RLink = node->RLink;
+            temp = new PassengerLink;
             temp->RLink = node->RLink;
             node->LLink = NULL;
             node->RLink = NULL;

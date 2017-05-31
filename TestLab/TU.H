@@ -5,14 +5,19 @@ typedef struct EdgeNode
 	int ptpos;
 	EdgeNode * next;
 }*edgeptr;
+
 typedef struct PointNode
 {
 	int data;
 	EdgeNode * link;
 }*ptptr;
+
 typedef PointNode ptList[MaxNum];
+
 int edgnum,ptnum;
+
 ptList List;
+
 int *visited =new int[ptnum+1];
 
 void Create(ptList &pl)
@@ -75,7 +80,7 @@ void Create(ptList &pl)
 			
 }
 
-void dfs(ptList pl,int V0)
+void dfs(ptList pl,int V0)//深度优先遍历
 {
 	cout<<V0<<' ';
 	visited[V0]=1;
@@ -89,7 +94,7 @@ void dfs(ptList pl,int V0)
 	}
 }
 
-void dfs2(ptList pl,int V0)
+void dfs2(ptList pl,int V0)//深度优先遍历非递归
 {
 	int top=0;
 	cout<<V0<<' ';
@@ -122,7 +127,7 @@ void dfs2(ptList pl,int V0)
 	}
 }
 
-void bfs(ptList pl,int V0)
+void bfs(ptList pl,int V0)//广度优先
 {	
 	for(int i=1;i<=ptnum;i++)
 		visited[i]=0;

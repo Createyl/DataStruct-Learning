@@ -150,33 +150,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/GraphTheory_170530.dir/build.make CMakeFiles/GraphTheory_170530.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-temp.o: temp.cpp.o
-
-.PHONY : temp.o
-
-# target to build an object file
-temp.cpp.o:
-	$(MAKE) -f CMakeFiles/GraphTheory_170530.dir/build.make CMakeFiles/GraphTheory_170530.dir/temp.cpp.o
-.PHONY : temp.cpp.o
-
-temp.i: temp.cpp.i
-
-.PHONY : temp.i
-
-# target to preprocess a source file
-temp.cpp.i:
-	$(MAKE) -f CMakeFiles/GraphTheory_170530.dir/build.make CMakeFiles/GraphTheory_170530.dir/temp.cpp.i
-.PHONY : temp.cpp.i
-
-temp.s: temp.cpp.s
-
-.PHONY : temp.s
-
-# target to generate assembly for a file
-temp.cpp.s:
-	$(MAKE) -f CMakeFiles/GraphTheory_170530.dir/build.make CMakeFiles/GraphTheory_170530.dir/temp.cpp.s
-.PHONY : temp.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +162,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... temp.o"
-	@echo "... temp.i"
-	@echo "... temp.s"
 .PHONY : help
 
 

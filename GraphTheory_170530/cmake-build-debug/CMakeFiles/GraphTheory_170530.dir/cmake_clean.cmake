@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GraphTheory_170530.dir/main.cpp.o"
-  "CMakeFiles/GraphTheory_170530.dir/temp.cpp.o"
   "GraphTheory_170530.pdb"
   "GraphTheory_170530"
 )
